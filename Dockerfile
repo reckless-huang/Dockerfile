@@ -1,4 +1,3 @@
-FROM  registry.900jit.com/yw/alpine-jdk181-tomcat9016:20220419
-#FROM registry.900jit.com/yw/alpine-jdk181-tomcat9016:sidecar
+FROM  ccr.ccs.tencentyun.com/reckless_public/alpine-jdk181-tomcat9016:20220419
 ARG payload
 COPY $payload /tomcat/webapps/
